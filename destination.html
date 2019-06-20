@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travelify</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/protask.css">
+</head>
+<body>
+    <section id="section-main">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" style="box-shadow: 0px 2px 8px;">
+           <a class="navbar-brand" href="protask.html"><img src="images/travelify1.png" width="150px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-items">
+                        <a href="protask.html" class="nav-link"><b>Home</b></a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="about.html" class="nav-link"><b>About Us</b></a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="services.html" class="nav-link"><b>Services</b></a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="destination.html" class="nav-link"><b>Destination</b></a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="contact.html" class="nav-link"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header>
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="images/destine-back.jpg" height="700px" alt="First slide">
+                      <div class="container">
+                          <div class="carousel-caption banner-text">
+                                <h1 class="mb-4 heading1">Popular Destination</h1>
+                                <p class="paragraph1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quaerat tempore dignissimos accusamus magnam nihil consequuntur unde, maiores in soluta ducimus inventore natus repellendus harum!</p> 
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </header>
+    </section>
+    
+    <section id="destine-tours">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+               <div class="col-md-12">
+                    <h1 class="text-center header2">Top Destination In Europe</h1>
+                    <p class="text-center paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dicta magni ex tempore blanditiis, dolorem,<br> inventore incidunt accusamus neque dolores.</p>
+               </div>
+           </div>
+           
+           <div class="row">
+               <div class="col-lg-4">
+                   <img src="images/destine1.jpg" class="img-fluid" style="height: 390px;" alt="">
+               </div>
+               <div class="col-lg-8">
+                   <div class="item-price">
+                       From $890
+                   </div>
+                   <div class="item-title">
+                       Paris,France
+                   </div>
+                   <p class="destinepara2">1 person / 4 nights / 5 star hotel</p>
+                   <div class="rating rating_5 destinefont">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <p class="destinepara3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut eveniet culpa illo alias quisquam dolorem error minus consectetur consequuntur animi atque, quos suscipit. Provident, molestiae tempore cumque, dolorum nobis nam, necessitatibus harum corporis at quam nihil temporibus consequuntur similique.</p>
+                   
+                   <!-- Button trigger modal -->
+                    <button type="button" class="destine-primary-btn text-uppercase" data-toggle="modal" data-target="#exampleModalCenter">
+                     Book Room&rarr;
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container">
+            <div class="row">
+               <div class="col-lg-12 booking-wrap">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-12">
+                        <h1 class="text-center header2">Book a Room</h1>
+                        <p class="text-center paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dicta magni ex tempore blanditiis, dolorem,<br> inventore incidunt accusamus neque dolores.</p>
+                    </div>
+                    <form action="#">
+                       <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                               
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control single-in" placeholder="First Name">
+                                            <input type="text" class="single-in form-control" placeholder="Arrival">
+                                            <select name="room type" class="single-in form-control" placeholder="Room Type">
+                                                <option data-display="Room Type">Room Type</option>
+                                                <option value="1">Room Type 1</option>
+                                                <option value="2">Room Type 2</option>
+                                                <option value="3">Room Type 3</option>
+                                            </select>
+                                            <select name="adultss" class="single-in form-control" placeholder="Adults">
+                                                <option data-display="adults">Adults</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <input type="text" class="single-in form-control" placeholder="Last Name">
+                                            <input type="text" class="single-in form-control" placeholder="Departure">
+                                            <select name="number of rooms" class="single-in form-control" placeholder="Number of Room">
+                                                <option data-display="number of rooms">Number of Rooms</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                            <select name="childs" class="single-in form-control" placeholder="Childs">
+                                                <option data-display="chlid">Childs</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                </div>
+                            </div>
+                          <div class="col-lg-6">
+                              <textarea name="message" class="single-in form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                          </div>      
+                         </div>
+                        </div>
+                        
+                        <div class="col-lg-12 text-center send-btn">
+                        <button href="#" class="primary-btn text-uppercase">Book Room&rarr;</button>
+                    </div>
+                    </form>
+                    
+                   </div>    
+               </div> 
+            </div>
+        </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="destine-primary-btn text-uppercase" data-dismiss="modal">Close</button>
+                            <button type="button" class="destine-primary-btn text-uppercase">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               </div>
+           </div>
+           
+           <div class="row divide">
+               <div class="col-lg-4">
+                   <img src="images/destine2.jpg" class="img-fluid" style="height: 390px;width: 260px;" alt="">
+               </div>
+               <div class="col-lg-8">
+                   <div class="item-price">
+                       From $290
+                   </div>
+                   <div class="item-title">
+                       Cinque Terre
+                   </div>
+                   <p class="destinepara2">1 person / 4 nights / 5 star hotel</p>
+                   <div class="rating rating_5 destinefont">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <p class="destinepara3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut eveniet culpa illo alias quisquam dolorem error minus consectetur consequuntur animi atque, quos suscipit. Provident, molestiae tempore cumque, dolorum nobis nam, necessitatibus harum corporis at quam nihil temporibus consequuntur similique.</p>
+                   
+                    
+                   <!-- Button trigger modal -->
+                    <button type="button" class="destine-primary-btn text-uppercase" data-toggle="modal" data-target="#exampleModalCenter">
+                     Book Room&rarr;
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container">
+            <div class="row">
+               <div class="col-lg-12 booking-wrap">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-12">
+                        <h1 class="text-center header2">Book a Room</h1>
+                        <p class="text-center paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dicta magni ex tempore blanditiis, dolorem,<br> inventore incidunt accusamus neque dolores.</p>
+                    </div>
+                    <form action="#">
+                       <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                               
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control single-in" placeholder="First Name">
+                                            <input type="text" class="single-in form-control" placeholder="Arrival">
+                                            <select name="room type" class="single-in form-control" placeholder="Room Type">
+                                                <option data-display="Room Type">Room Type</option>
+                                                <option value="1">Room Type 1</option>
+                                                <option value="2">Room Type 2</option>
+                                                <option value="3">Room Type 3</option>
+                                            </select>
+                                            <select name="adultss" class="single-in form-control" placeholder="Adults">
+                                                <option data-display="adults">Adults</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <input type="text" class="single-in form-control" placeholder="Last Name">
+                                            <input type="text" class="single-in form-control" placeholder="Departure">
+                                            <select name="number of rooms" class="single-in form-control" placeholder="Number of Room">
+                                                <option data-display="number of rooms">Number of Rooms</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                            <select name="childs" class="single-in form-control" placeholder="Childs">
+                                                <option data-display="chlid">Childs</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                </div>
+                            </div>
+                          <div class="col-lg-6">
+                              <textarea name="message" class="single-in form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                          </div>      
+                         </div>
+                        </div>
+                        
+                        <div class="col-lg-12 text-center send-btn">
+                        <button href="#" class="primary-btn text-uppercase">Book Room&rarr;</button>
+                    </div>
+                    </form>
+                    
+                   </div>    
+               </div> 
+            </div>
+        </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="destine-primary-btn text-uppercase" data-dismiss="modal">Close</button>
+                            <button type="button" class="destine-primary-btn text-uppercase">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               </div>
+           </div>
+           
+           <div class="row divide">
+               <div class="col-lg-4">
+                   <img src="images/destine3.jpg" class="img-fluid" style="height: 390px;width: 260px;" alt="">
+               </div>
+               <div class="col-lg-8">
+                   <div class="item-price">
+                       From $590
+                   </div>
+                   <div class="item-title">
+                       Italian Riviera
+                   </div>
+                   <p class="destinepara2">1 person / 4 nights / 3 star hotel</p>
+                   <div class="rating rating_5 destinefont">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <p class="destinepara3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut eveniet culpa illo alias quisquam dolorem error minus consectetur consequuntur animi atque, quos suscipit. Provident, molestiae tempore cumque, dolorum nobis nam, necessitatibus harum corporis at quam nihil temporibus consequuntur similique.</p>
+                   
+                    <!-- Button trigger modal -->
+                    <button type="button" class="destine-primary-btn text-uppercase" data-toggle="modal" data-target="#exampleModalCenter">
+                     Book Room&rarr;
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container">
+            <div class="row">
+               <div class="col-lg-12 booking-wrap">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-12">
+                        <h1 class="text-center header2">Book a Room</h1>
+                        <p class="text-center paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dicta magni ex tempore blanditiis, dolorem,<br> inventore incidunt accusamus neque dolores.</p>
+                    </div>
+                    <form action="#">
+                       <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                               
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control single-in" placeholder="First Name">
+                                            <input type="text" class="single-in form-control" placeholder="Arrival">
+                                            <select name="room type" class="single-in form-control" placeholder="Room Type">
+                                                <option data-display="Room Type">Room Type</option>
+                                                <option value="1">Room Type 1</option>
+                                                <option value="2">Room Type 2</option>
+                                                <option value="3">Room Type 3</option>
+                                            </select>
+                                            <select name="adultss" class="single-in form-control" placeholder="Adults">
+                                                <option data-display="adults">Adults</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <input type="text" class="single-in form-control" placeholder="Last Name">
+                                            <input type="text" class="single-in form-control" placeholder="Departure">
+                                            <select name="number of rooms" class="single-in form-control" placeholder="Number of Room">
+                                                <option data-display="number of rooms">Number of Rooms</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                            <select name="childs" class="single-in form-control" placeholder="Childs">
+                                                <option data-display="chlid">Childs</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                </div>
+                            </div>
+                          <div class="col-lg-6">
+                              <textarea name="message" class="single-in form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                          </div>      
+                         </div>
+                        </div>
+                        
+                        <div class="col-lg-12 text-center send-btn">
+                        <button href="#" class="primary-btn text-uppercase">Book Room&rarr;</button>
+                    </div>
+                    </form>
+                    
+                   </div>    
+               </div> 
+            </div>
+        </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="destine-primary-btn text-uppercase" data-dismiss="modal">Close</button>
+                            <button type="button" class="destine-primary-btn text-uppercase">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               </div>
+           </div>
+           
+        </div>
+    </section>
+    
+    <section class="contact-info-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="single-info col-lg-3 col-md-6">
+                    <h4 class="heading5">We Visit Our Office</h4>
+                    <p class="paragraph3">56/8, bir uttam qazi nuruzzaman<br> road, west panthapath, kalabagan,<br> Dhanmondi, Dhaka - 1205</p>
+                </div>
+                <div class="single-info col-lg-3 col-md-6">
+                    <h4 class="heading5">Let's call us</h4>
+                    <p class="paragraph3">Phone 01: 012-6532-568-9746<br>Phone 02: 012-6532-568-9748 <br>FAX: 02-6532-568-746</p>
+                </div>
+                <div class="single-info col-lg-3 col-md-6">
+                    <h4 class="heading5">Let's Email Us</h4>
+                    <p class="paragraph3">hello@travel.com<br>mainhelpinfo@travel.com<br>infohelp@travel.com</p>
+                </div>
+                <div class="single-info col-lg-3 col-md-6">
+                    <h4 class="heading5">Customer Support</h4>
+                    <p class="paragraph3">support@travel.com<br>emergencysupp@travel.com<br>extremesupp@travel.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h6 class="heading6">About Us</h6>
+                    <p class="paragraph3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae at suscipit, illum reprehenderit deserunt maiores.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h6 class="heading6">Newsletter</h6>
+                    <p class="paragraph3">Stay Update With Your Latest.</p>
+                    <form action="#" >
+                        <div class="form-group d-flex">
+                            <input type="text" class="form-control" placeholder="Enter Email Address">
+                            <input type="submit" class="submit px-3" value="Send&rarr;">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h6 class="heading6">Instagram Feed</h6>
+                    <div class="row" style="margin-bottom: 10px;">
+                        <div class="col-lg-3">
+                            <img src="images/insta1.jpg" class="img-fluid imginsta" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="images/insta2.jpg" class="img-fluid imginsta" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="images/insta3.jpg" class="img-fluid imginsta" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="images/insta4.jpg" class="img-fluid imginsta" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <img src="images/insta5.jpg" class="img-fluid imginsta" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="images/insta6.jpg" class="img-fluid imginsta" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="images/insta7.jpg" class="img-fluid imginsta" alt="">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="images/insta8.jpg" class="img-fluid imginsta" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <h6 class="heading6">Follow Us</h6>
+                    <p class="paragraph3">Let us be Social.</p>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="#"><i class="fab fa-behance-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+            <div class="footer-text m-0">
+                Copyright ©2019 All rights reserved | This website is made with <i class="far fa-heart"></i> by <a class="name-brand" href="#">shashank</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
